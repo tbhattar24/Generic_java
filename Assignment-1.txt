@@ -23,7 +23,7 @@ public class HashSet2
 	public static void main(String[] args) 
 	{
 		HashSet<Employee_gen> set = new HashSet<>();
-		Employee_gen e1 = new Employee_gen(123,20000,"bhav","development");
+		Employee_gen e1 = new Employee_gen(4618,25000,"teja","analyst");
 		set.add(e1);
 		for(Employee_gen e:set){  
 		    e.display_details();
